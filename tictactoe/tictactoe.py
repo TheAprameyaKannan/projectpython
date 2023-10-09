@@ -3,8 +3,8 @@ from tkinter import *
 from PIL import Image, ImageTk
 
 #setting up
-ximage = Image.open(r"C:\\Users\\Aprameya Kannan\\OneDrive\\Pictures\\Screenshots\\x.png")
-oimage = Image.open(r"C:\\Users\\Aprameya Kannan\\OneDrive\\Pictures\\Screenshots\\o.png")
+ximage = Image.open(r"PATHTOX")
+oimage = Image.open(r"PATHTOO")
 root = Tk()
 root.geometry("900x1000")
 turn = 0
