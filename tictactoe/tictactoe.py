@@ -152,6 +152,8 @@ def check():
         T.config(text="PLAYER ONE WINS!")
     elif(takenA1=="X" and takenB2 =="X" and takenC3 =="X"):
         T.config(text="PLAYER ONE WINS!")
+    elif(takenA3=="X" and takenB2 =="X" and takenC1 =="X"):
+        T.config(text="PLAYER ONE WINS!")
     elif(takenA1=="O" and takenA2 =="O" and takenA3 =="O"):
         T.config(text="PLAYER TWO WINS!")
     elif(takenB1=="O" and takenB2 =="O" and takenB3 =="O"):
@@ -165,6 +167,8 @@ def check():
     elif(takenA3=="O" and takenB3 =="O" and takenC3 =="O"):
         T.config(text="PLAYER TWO WINS!")
     elif(takenA1=="O" and takenB2 =="O" and takenC3 =="O"):
+        T.config(text="PLAYER TWO WINS!")
+    elif(takenA3=="O" and takenB2 =="O" and takenC1 =="O"):
         T.config(text="PLAYER TWO WINS!")
     elif(takenA1!="" and takenA2 !="" and takenA3 !="" and takenB1 !="" and takenB2 !="" and takenB3 !="" and takenC1!="" and takenC2!="" and takenC3!=""):
         T.config(text="TIE GAME!")
